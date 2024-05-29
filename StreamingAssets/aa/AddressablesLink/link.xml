@@ -5,7 +5,6 @@
     <type fullname="CheckPointHandle" preserve="all" />
     <type fullname="EndGamePanel" preserve="all" />
     <type fullname="Fence" preserve="all" />
-    <type fullname="FlutterUnityIntegration.UnityMessageManager" preserve="all" />
     <type fullname="Game.GameManager" preserve="all" />
     <type fullname="GamePlayPanel" preserve="all" />
     <type fullname="Letter" preserve="all" />
