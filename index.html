@@ -11,7 +11,7 @@
 
 <body>
   <div id="unity-container" class="unity-desktop">
-    <canvas id="unity-canvas" width=1366 height=1024></canvas>
+    <canvas id="unity-canvas" width=960 height=600></canvas>
     <div id="unity-loading-bar">
       <div id="unity-logo"></div>
       <div id="unity-progress-bar-empty">
@@ -25,22 +25,6 @@
       <div id="unity-build-title">Base Hyper</div>
     </div>
   </div>
-  <script>
-
-    function enterFullscreenMode() {
-      console.log("Enter fullscreen mode")
-      const fullScreenBtn = document.getElementById('unity-fullscreen-button');
-      if (fullScreenBtn) {
-        console.log("Found click button");
-        fullScreenBtn.click();
-      }
-    }
-    // if (document.readyState == 'complete') {
-    //   // console.log("Document is ready");
-    //   enterFullscreenMode();
-    // }
-    setTimeout(enterFullscreenMode, 500)
-  </script>
   <script>
     var container = document.querySelector("#unity-container");
     var canvas = document.querySelector("#unity-canvas");
@@ -107,7 +91,7 @@
       // performance, uncomment the following line:
       // config.devicePixelRatio = 1;
 
-      unityShowBanner('WebGL builds are not supported on mobile devices.');
+      // unityShowBanner('WebGL builds are not supported on mobile devices.');
     } else {
       // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
